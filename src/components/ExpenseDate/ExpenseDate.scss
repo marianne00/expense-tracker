@@ -1,0 +1,19 @@
+.expense-item__date {
+  margin-right: 30px;
+  width: 100px;
+  padding: 10px;
+
+  text-align: center;
+
+  background-color: rgb(173, 223, 250);
+}
+
+.expense-item__date__month {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.expense-item__date__day {
+  font-size: 20px;
+  font-weight: bold;
+}
