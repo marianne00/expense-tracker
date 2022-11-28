@@ -24,6 +24,42 @@ function App() {
       amount: 450,
       date: new Date(2021, 5, 12),
     },
+    {
+      id: 'e5',
+      title: 'Bday Needs',
+      amount: 4500,
+      date: new Date(2019, 2, 26),
+    },
+    {
+      id: 'e6',
+      title: 'Kitchen Needs',
+      amount: 570,
+      date: new Date(2020, 2, 26),
+    },
+    {
+      id: 'e7',
+      title: 'DSLR Cam',
+      amount: 2134,
+      date: new Date(2019, 7, 6),
+    },
+    {
+      id: 'e8',
+      title: 'Tumbler',
+      amount: 45,
+      date: new Date(2022, 5, 13),
+    },
+    {
+      id: 'e9',
+      title: 'Weighing Scale',
+      amount: 200,
+      date: new Date(2022, 7, 30),
+    },
+    {
+      id: 'e10',
+      title: 'Wayfarers',
+      amount: 240,
+      date: new Date(2021, 8, 1),
+    }
   ];
 
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
